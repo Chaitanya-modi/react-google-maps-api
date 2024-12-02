@@ -37,6 +37,10 @@
     "bootstrap": "lerna bootstrap",
     "build-storybook": "build-storybook"
   },
+  "peerDependencies": {
+    "react": "^16.8 || ^17 || ^18 || ^19",
+    "react-dom": "^16.8 || ^17 || ^18 || ^19"
+},
   "lint-staged": {
     "*.{ts|tsx}": [
       "npx eslint --fix",
